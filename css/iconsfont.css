@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?fa8j0e');
+  src:  url('../fonts/icons.eot?fa8j0e#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?fa8j0e') format('truetype'),
+    url('../fonts/icons.woff?fa8j0e') format('woff'),
+    url('../fonts/icons.svg?fa8j0e#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before, [class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak-as: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-at:before {
+  content: "\e900";
+}
+.icon-css3:before {
+  content: "\e901";
+  color: #d14836;
+}
+.icon-db_logo:before {
+  content: "\e902";
+  color: rgb(96, 91, 91);
+}
+.icon-django:before {
+  content: "\e903";
+  color: rgb(9, 50, 32);
+}
+.icon-docker:before {
+  content: "\e904";
+  color: #2496ED;
+}
+.icon-github-square:before {
+  content: "\e905";
+  color: orange;
+}
+.icon-github:before {
+  content: "\e906";
+  color: black;
+}
+.icon-gmail:before {
+  content: "\e907";
+  color: rgb(212, 70, 56);
+}
+.icon-html5:before {
+  content: "\e908";
+  color: #E44D25;
+}
+.icon-linkedin:before {
+  content: "\e909";
+  color: rgb(10, 102, 194);
+}
+.icon-mail_logo:before {
+  content: "\e90a";
+}
+.icon-python:before {
+  content: "\e90b";
+  color: #FFCE3C;
+}
+.icon-telegram:before {
+  content: "\e90c";
+  color: rgb(0,136,204);
+}
+.icon-git:before {
+  content: "\e905";
+  color: #f05032;
+}
